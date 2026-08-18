@@ -1,5 +1,17 @@
+require('dotenv').config();
 const express = require('express');
+const connectDB = require('./config/db');
+
+// Import router
+const employeeRoute = require('./routes/employeeRoute');
+
 const app = express();
+
+//Middleware
+app.use(express.json());
+
+//Connnect MongoDB
+connectDB();
 
 app.get('/', async(req, res)=>{
     try {
@@ -9,6 +21,8 @@ app.get('/', async(req, res)=>{
     }
 });
 
+// API routes
+app.use('/employee',employeeRoute)
 
 const PORT = process.env.PORT || 9999;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

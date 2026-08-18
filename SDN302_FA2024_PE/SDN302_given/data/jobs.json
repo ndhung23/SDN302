@@ -1,0 +1,15 @@
+[
+  {
+    "_id": { "$oid": "6706c540be090ec1c08abf95" },
+    "name": "System Upgrade",
+    "issues": [
+      {
+        "title": "Database Migration",
+        "date": { "$date": "2024-10-01T00:00:00.000Z" },
+        "isCompleted": true
+      }
+    ],
+    "startDate": { "$date": "2024-10-01T00:00:00.000Z" },
+    "endDate": { "$date": "2024-10-15T00:00:00.000Z" }
+  }
+]

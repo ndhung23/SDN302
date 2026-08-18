@@ -1,0 +1,26 @@
+{
+  "name": "Customer Service",
+  "description": "Handles customer inquiries and resolves issues.",
+  "employees": [
+    {
+      "name": {
+        "firstName": "Michael",
+        "middleName": "Ryan",
+        "lastName": "Doe"
+      },
+      "dateOfBirth": "1990-05-15",
+      "gender": "male",
+      "department": null
+    },
+    {
+      "name": {
+        "firstName": "Emily",
+        "middleName": "Jane",
+        "lastName": "Clark"
+      },
+      "dateOfBirth": "1995-10-20",
+      "gender": "female",
+      "department": null
+    }
+  ]
+}

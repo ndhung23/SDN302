@@ -1,0 +1,12 @@
+[
+  {
+    "_id": { "$oid": "6706c540be090ec1c08abf87" },
+    "name": "Human Resources",
+    "description": "Handles employee relations, recruiting, and company policies."
+  },
+  {
+    "_id": { "$oid": "6706c540be090ec1c08abf88" },
+    "name": "Information Technology",
+    "description": "Manages technical infrastructure and software development."
+  }
+]

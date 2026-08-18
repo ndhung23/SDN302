@@ -1,0 +1,67 @@
+[
+  {
+    "_id": { "$oid": "6706c540be090ec1c08abf8a" },
+    "name": {
+      "firstName": "Emily",
+      "middleName": "Catherine",
+      "lastName": "Johnson"
+    },
+    "dateOfBirth": { "$date": "1978-03-30T08:00:00.000Z" },
+    "gender": "female",
+    "manager": "",
+    "department": { "$oid": "6706c540be090ec1c08abf87" },
+    "account": {
+      "email": "emily.johnson@example.com",
+      "password": "Password123!"
+    },
+    "dependents": [],
+    "jobs": []
+  },
+  {
+    "_id": { "$oid": "6706c540be090ec1c08abf89" },
+    "name": {
+      "firstName": "John",
+      "middleName": "Albert",
+      "lastName": "Doe"
+    },
+    "dateOfBirth": { "$date": "1980-05-15T08:00:00.000Z" },
+    "gender": "male",
+    "manager": "Emily Catherine Johnson",
+    "department": { "$oid": "6706c540be090ec1c08abf87" },
+    "account": {
+      "email": "john.doe@example.com",
+      "password": "Password123!"
+    },
+    "dependents": [
+      {
+        "_id": { "$oid": "6706c540be090ec1c08abf91" },
+        "fullname": "Jane Doe",
+        "relation": "wife"
+      },
+      {
+        "_id": { "$oid": "6706c540be090ec1c08abf92" },
+        "fullname": "Jake Doe",
+        "relation": "Son"
+      }
+    ],
+    "jobs": []
+  },
+  {
+    "_id": { "$oid": "6706c540be090ec1c08abf8c" },
+    "name": {
+      "firstName": "Alice",
+      "middleName": "B",
+      "lastName": "Smith"
+    },
+    "dateOfBirth": { "$date": "1992-07-20T08:00:00.000Z" },
+    "gender": "female",
+    "manager": "Emily Catherine Johnson",
+    "department": { "$oid": "6706c540be090ec1c08abf87" },
+    "account": {
+      "email": "alice.smith@example.com",
+      "password": "Password123!"
+    },
+    "dependents": [],
+    "jobs": []
+  }
+]
